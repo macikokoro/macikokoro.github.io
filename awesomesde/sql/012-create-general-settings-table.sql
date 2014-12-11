@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS customer.general_settings;
+
+CREATE TABLE customer.general_settings (
+    `id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+    `key` VARCHAR(255) UNIQUE NOT NULL,
+    `value` LONGTEXT NOT NULL,
+    PRIMARY KEY(`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC;

@@ -1,0 +1,85 @@
+<div class="modal-dialog modal-responsive">
+    <div class="modal-header">
+        <button type="button"  ng-click="cancel()" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Login</h4>
+    </div>
+    <div class="modal-body">
+        <div class="container-login" id="container-login">
+            <div class="overlay-box">
+                <div class="signinup-default beige">
+
+                    <p>
+
+                    <form id="facebookLogin" action="login/doLogin">
+                        <input name="provider" value="facebook" hidden="true">
+                        <button id="fb-login" class="facebook" type="submit">
+                            <span class="issuuicons">f</span> Connect with Facebook
+                        </button>
+                    </form>
+                    </p>
+
+                    <p>
+
+                    <form id="linkedInLogin" action="login/doLogin">
+                        <input name="provider" value="linkedin" hidden="true">
+                        <button id="linkedin-login" class="linkedin" type="submit">
+                            <span class="issuuicons">L</span> Connect with Linkedin
+                        </button>
+                    </form>
+                    </p>
+
+
+                    </p>
+
+
+                    <p>
+
+                    <p>
+
+                    <p class="divider">OR</p>
+
+                    <div id="job-match-login">
+                        <form id="login-form" action="login/doLogin">
+                            <p>
+                                <input id="login-username" type="email" autocapitalize="off"
+                                       placeholder="Email or username" maxlength="" value=""
+                                       name="username" required ng-model="email">
+                            </p>
+
+                            <p>
+                                <input id="login-password" type="password" placeholder="Password"
+                                       maxlength="" value="" name="password" required ng-model="password">
+                            </p>
+
+                            <p>
+                                <label class="pull-left" for="persist"> <input
+                                        id="persist" type="checkbox"
+                                        ng-model="persist"> Remember me
+                                </label>
+                            </p>
+                            <a class="pull-right" href="forgotpassword">Forgot
+                                password?</a>
+                            <br/>
+                            <br/>
+
+                            <p>
+                                <button id="login-button" class="positive" type="submit">
+                                    <span class="text">Let's start</span> <span class="issuuicons"></span>
+                                </button>
+                            </p>
+                            <p>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- /container -->
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" ng-click="cancel()" class="btn btn-default" data-dismiss="modal">Close</button>
+     </div>
+
+</div>

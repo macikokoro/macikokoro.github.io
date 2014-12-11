@@ -1,0 +1,15 @@
+1. I join the website as a candidate 
+2. The site 
+          creates a new workspace 
+			1. clone of the question repository. 
+	  I see that repository in my browser. 
+3. I start to code 
+	and I save it multiple times 
+4. finally I submit 
+5. Tests are run and then we tell the user the edge cases he has failed on. 
+6. Finally we ask  him if he can do better - 
+           from a run time complexity.
+7. I code it and give him points
+
+12$ per year 
+1$ per month
